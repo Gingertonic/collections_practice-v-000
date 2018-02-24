@@ -33,7 +33,7 @@ describe 'collections practice' do
   #BONUS 4A I MADE THIS TEST!
   describe '#swap_elements_from_to' do
     it 'swaps any given element to any given destination' do
-      expect(swap_elements_from_to(["mickey", "goofy", "donald", "pluto", "minnie"], 4, 1)).to eq(["mickey", "minnie", "donald", "pluto", "goofy"])
+      expect(swap_elements_from_to(["mickey", "pluto", "donald", "goofy", "minnie"], 4, 1)).to eq(["mickey", "minnie", "donald", "goofy", "pluto"])
     end
   end
 
